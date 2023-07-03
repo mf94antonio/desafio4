@@ -96,6 +96,8 @@ hr {
     border-radius: 50px;
 }
 
+
+/* lado direito */
 .cadastro {
 
     grid-area: cadastro;
@@ -248,4 +250,34 @@ a {
     line-height: normal;
 }
 
+
+
+
+@media (max-width: 1006px) {
+    
+    #container {
+        display: flex;
+        padding: 71px 32px 52px 32px;
+      
+        
+    }
+
+.perfil {
+    display: none;
+    background: #F7FAFC;
+    grid-area: perfil;
+    flex-direction: column;      
+
+}
+
+.cadastro {
+
+    grid-area: cadastro;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  
+}
+}
 
