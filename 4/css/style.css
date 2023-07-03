@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    display: grid;
+    grid-template-areas: "perfil cadastro";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100vh;
+    
+}
+
+.perfil {
+    background: #F7FAFC;
+    grid-area: perfil;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+      
+
+}
+
+header {
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px; 
+    padding: 1.58px 12.6px 7.1px  7.24px;
+    
+    
+    
+}
+.radio {
+    display: flex;
+    align-items: center;
+    gap: 9.26px;
+}
+.radio input {
+    background: #3F3D56;
+    width: 12.735px;
+    height: 12.735px;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2.03px;
+}
+.menu span {
+    width: 17.945px;
+    height: 2.315px;
+    background: #3F3D56;
+}
+hr { 
+    display: block;
+    width: 400px;
+    height: 1.158px;
+    margin-bottom: 33.12px;
+    
+}
+.menu-auto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 6.78px;
+    margin-bottom: 50.02px;
+}
+.menu1 {
+    background: #E4E4E4;
+    width: 78.007px;
+    height: 9.523px;
+    border-radius: 6px;
+}
+.menu2 {
+    background: #E4E4E4;
+    width: 110.609px;
+    height: 9.523px;
+    border-radius: 6px;
+}
+.user {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 31.84px;
+    margin-left: 29.37px;
+}
+.user1 {
+    background: #F0F0F0;
+    
+    padding: 25px;
+    border-radius: 50px;
+}
+
+.cadastro {
+
+    grid-area: cadastro;
+    margin: auto;
+  
+}
+.cadastro span {
+    font-size: 16px;
+    color: #1A202C;
+    font-family: Merriweather;
+    font-weight: 400;
+    margin-bottom: 7px;
+}
+.cadastro h1 {
+    color: #1A202C;
+    font-size: 26px;
+    font-family: Merriweather;
+    font-weight: 700;
+    margin-bottom: 39px;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+}
+.email label {
+    color: #1A202C;
+    font-size: 16px;
+    font-family: Lato;
+    font-weight: 400; 
+    padding-bottom: 11px;  
+}
+.email input {
+    width: 350px;
+    height: 50px;
+    color: #1A202C;
+    font-size: 14px;
+    font-family: Lato;
+    font-weight: 400;
+    border-radius: 5px;
+    border: 1px solid #E8E8E8;
+    padding-left: 20px;
+    margin-bottom: 11px;
+}
+
+.senha {
+    display: flex;
+    flex-direction: column;
+}
+.senha label {
+    color: #1A202C;
+    font-size: 16px;
+    font-family: Lato;
+    font-weight: 400; 
+    margin-bottom: 11px;  
+}
+.senha input {
+    width: 350px;
+    height: 50px;
+    color: #1A202C;
+    font-size: 14px;
+    font-family: Lato;
+    font-weight: 400;
+    border-radius: 5px;
+    border: 1px solid #E8E8E8;
+    padding-left: 20px;
+    margin-bottom: 28px;
+}
+
+.salvar-senha {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 26px;
+}
+.salvar {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+.salvar-senha a {
+    text-decoration: none;
+}
+
+.entrar input {
+    width: 347px;
+    height: 50px;
+    border-radius: 5px;
+    background: #04C35C;
+    color: #FFF;
+    font-size: 16px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+#radio:hover {
+    background-color: #2B6CB0;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.google {
+    margin-bottom: 162px;
+}
+.google a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 347px;
+    height: 50px;
+    border-radius: 5px;
+    background: #1A202C;
+    padding: 15px 20px;
+    color: #FFF;
+    font-size: 16px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+#google-imagem {
+    width: 20px;
+    height: 20px;
+   
+}
+
+
+.text {
+    
+    text-align: center;
+    color: #1A202C;
+    font-size: 16px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+a {
+    text-decoration: none;
+    
+    font-size: 16px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
